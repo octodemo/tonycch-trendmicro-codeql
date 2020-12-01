@@ -33,7 +33,7 @@ jobs:
       uses: github/codeql-action/init@v1
       with:
         languages: cpp 
-        queries: security-and-quality
+        config-file: ./.github/codeql/codeql-config.yml
       # Override language selection by uncommenting this and choosing your languages
       # with:
       #   languages: go, javascript, csharp, python, cpp, java
