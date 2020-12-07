@@ -3,6 +3,6 @@ name: "My CodeQL config"
 disable-default-queries: true
 
 queries:
-  # - uses: security-and-quality
   - uses: github/codeql/cpp/ql/src/Critical/OverflowStatic.ql@main
   - uses: github/codeql/cpp/ql/src/Security/CWE/CWE-119/OverflowBuffer.ql@main
+  
