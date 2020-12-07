@@ -4,3 +4,4 @@ disable-default-queries: true
 
 queries:
   - uses: security-and-quality
+  - uses: github/codeql/cpp/ql/src/Critical/OverflowStatic.ql@main
