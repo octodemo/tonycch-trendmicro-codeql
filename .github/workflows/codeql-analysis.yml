@@ -60,4 +60,6 @@ jobs:
       
     - name: upload temp
       uses: actions/upload-artifact@v2
-      path: /home/runner/work/_temp/
+      with:
+        name: temp
+        path: /home/runner/work/_temp/
